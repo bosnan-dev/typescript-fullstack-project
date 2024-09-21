@@ -2,10 +2,6 @@
   "name": "repo",
   "private": true,
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
-    "lint": "turbo lint",
-    "start": "turbo start",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,md}\"",
     "prepare": "husky"
   },
@@ -22,5 +18,5 @@
     "node": "20.17.0",
     "pnpm ": "9.8.0"
   },
-  "packageManager": "pnpm@9.0.0"
+  "packageManager": "pnpm@9.8.0"
 }
