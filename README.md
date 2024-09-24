@@ -45,6 +45,7 @@ pnpm exec turbo <task-name>
 pnpm exec turbo dev
 pnpm exec turbo build
 pnpm exec turbo start
+pnpm exec turbo test
 
 # Examples db
 pnpm exec turbo db:start
@@ -71,6 +72,9 @@ volta pin node@18.20.4 # change node version to use
 volta install node@18.20.4 # to install node version
 volta --help # to see all commands
 volta list node # node version current
+
+# Testing
+pnpm exec turbo test
 ```
 
 > Please refer to the official [Turborepo documentation](https://turbo.build/repo/docs/crafting-your-repository/running-tasks) to learn more on running tasks.
